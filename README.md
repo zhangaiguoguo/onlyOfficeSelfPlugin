@@ -1,0 +1,2 @@
+# onlyOfficeSelfPlugin
+onlyOfficeSelfPlugin
