@@ -1,0 +1,39 @@
+{
+    // 插件名称
+    "name": "字体替换",
+    // 插件 id，固定格式
+    "guid": "asc.{11700c35-1fdb-4e37-9edb-b31637139601}",
+    "variations": [
+        {
+            // 插件描述
+            "description": "数字字体替换",
+            // 这个是页面地址，外部如果不是 index.html，也需要在这里改一下
+            "url": "index.html",
+            // 插件图标，建议 1 倍图和 2 倍图都配置下
+            "icons": [
+                "icon.png",
+                "icon@2x.png"
+            ],
+            // 仅预览模式时，插件是否要启用，默认值：false
+            "isViewer": false,
+            // 插件支持的文档类型，可选值：word、cell、slide
+            "EditorsSupport": [
+                "word"
+            ],
+            // 插件是否具有 UI 视图
+            "isVisual": true,
+            // 插件是否以弹框形式打开
+            "isModal": false,
+            // 指定要从编辑器中传递的数据类型，可选值：text、html、ole、desktop、destop-external、none
+            "initDataType": "none",
+            // 插件启动时从编辑器传递的数据，与 initDataType 配合使用，如果 initDataType 设置 text 则插件启动时会收到当前编辑器所选中的文本
+            "initData": "",
+            // 插件可使用的按钮列表
+            "buttons": [],
+            // 需要用到的事件需要在这里先注册
+            "events": [
+                "onClick"
+            ]
+        }
+    ]
+}
